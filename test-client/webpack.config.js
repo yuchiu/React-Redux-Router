@@ -17,7 +17,7 @@ module.exports = {
     path: path.join(__dirname, "dist"),
     publicPath: "/",
     filename: "./js/[name].bundle.js",
-    sourceMapFilename: "[name].bundle.map"
+    sourceMapFilename: "./js/[name].bundle.map"
   },
 
   mode: "development",
