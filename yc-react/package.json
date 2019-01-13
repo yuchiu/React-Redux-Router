@@ -1,0 +1,53 @@
+{
+  "name": "yc-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "createElement.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "eslint": "^5.2.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "jest": "^23.6.0",
+    "prettier": "^1.14.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "eslintConfig": {
+    "env": {
+      "jest": true,
+      "node": true
+    },
+    "extends": [
+      "airbnb-base",
+      "plugin:prettier/recommended"
+    ],
+    "rules": {
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "quotes": [
+        "error",
+        "double"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "no-console": 0,
+      "no-unused-vars": 0,
+      "import/prefer-default-export": 0,
+      "no-underscore-dangle": 0,
+      "consistent-return": 0,
+      "no-param-reassign": 0,
+      "no-restricted-syntax": 0,
+      "no-plusplus": 0
+    }
+  }
+}

@@ -1,7 +1,4 @@
-import createElement from "../../yc-react/createElement";
-import render from "../../yc-react/render";
-import mount from "../../yc-react/mount";
-import diff from "../../yc-react/diff";
+import { createElement, render, mount, diff } from "../../yc-react";
 
 const createVApp = count =>
   createElement("div", {
@@ -14,7 +11,7 @@ const createVApp = count =>
       ...Array.from({ length: count }, () =>
         createElement("img", {
           attrs: {
-            src: "https://media.giphy.com/media/cuPm4p4pClZVC/giphy.gif"
+            src: "http://www.reactiongifs.com/r/dimi.gif"
           }
         })
       )
