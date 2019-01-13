@@ -10,7 +10,7 @@ module.exports = {
   entry: {
     app: [
       path.join(__dirname, "src", "index.js"),
-      path.join(__dirname, "src", "css", "main.scss")
+      path.join(__dirname, "src", "assets", "css", "main.scss")
     ]
   },
   output: {
@@ -41,7 +41,7 @@ module.exports = {
 
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.join(__dirname, "src", "views", "index.html")
+      template: path.join(__dirname, "public", "index.html")
     }),
     new webpack.LoaderOptionsPlugin({
       options: {
