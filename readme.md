@@ -1,12 +1,14 @@
 # YC-React
 
-## To-Do
+- Virtual dom implementation, capable of rendering, differentiate and mounting JavaScript components to HTML
+
+## Demo
+
+- Demo: [Link](http://yuchiu-virtual-dom.surge.sh)
+
+## Future Expansion
 
 - APIs for structuring components similar to React
-
-## Done
-
-- Virtual dom implementation
 
 ## Test-Client
 
